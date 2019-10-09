@@ -7,7 +7,7 @@
 #include <muduo/net/InetAddress.h>
 
 #include <hiredis/hiredis.h>
-
+#include <muduo/base/noncopyable.h>
 struct redisAsyncContext;
 
 namespace muduo
